@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2016", // Versão do JavaScript de saída
+    "module": "CommonJS", // Sistema de módulos (padrão para Node.js)
+    "outDir": "./dist", // Pasta onde o JavaScript compilado será salvo
+    "rootDir": "./src", // Pasta onde seus arquivos TypeScript ficarão
+    "strict": true, // Habilita verificações de tipo estritas
+    "esModuleInterop": true, // Melhora a interoperabilidade com módulos CommonJS
+    "skipLibCheck": true, // Pula a verificação de tipos em arquivos de declaração (.d.ts)
+    "forceConsistentCasingInFileNames": true // Garante consistência no nome dos arquivos
+  },
+  "include": ["src/**/*"], // Quais arquivos incluir na compilação
+  "exclude": ["node_modules"] // Quais arquivos/pastas excluir
+}
